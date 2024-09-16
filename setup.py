@@ -29,7 +29,7 @@ def get_detectron2_current_version():
 setup(
     name="detectron2-densepose",
     author="FAIR",
-    version=get_detectron2_current_version(),
+    version="0.1.0.dev",
     url="https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose",
     packages=find_packages(),
     python_requires=">=3.7",
